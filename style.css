@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+body{
+    background-color: #e0e0e0;
+}
+h1{
+    text-align: center;
+    font-family: 'Stylish', sans-serif;
+    font-size: 45px;
+}
+#my-canvas{
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    height: 400;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #969696, -5px -5px 10px #ffffff;
+}
+.buttons{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.center{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.btn{
+    margin-top: 70px;
+    border: 0;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #969696, -5px -5px 10px #ffffff;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
