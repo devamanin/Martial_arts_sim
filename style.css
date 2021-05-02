@@ -11,7 +11,7 @@ h1{
     border-radius: 20px;
     margin: 0;
     padding: 0;
-    height: 400;
+    height: 500px;
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
@@ -21,30 +21,38 @@ h1{
     background: #e0e0e0;
     box-shadow:  5px 5px 10px #969696, -5px -5px 10px #ffffff;
 }
-.buttons{
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-}
 .center{
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    top: 50%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
 }
 .btn{
-    margin-top: 70px;
-    border: 0;
-    border-radius: 10px;
-    width: 80px;
-    height: 30px;
-    background: #dbdbdb;
-    /* background: #ddc6c6; */
-    box-shadow:  5px 5px 10px #969696, -5px -5px 10px #ffffff;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow:  5px 5px 10px #969696, -5px -5px 10px #ffffff;
+  margin-left: 20px;
+  font-family: 'Stylish', sans-serif;
+  font-size: 18px;
 }
+.first{
+  margin-left: -20px;
+}
+
 .btn:hover{
-    background-color: #ddc6c6;
+    background-color: #e2a1a1;
+    color: white;
 }
 .btn:active{
     box-shadow:  -5px -5px 10px #fffefe, 5px 5px 10px #f8f5f5;
