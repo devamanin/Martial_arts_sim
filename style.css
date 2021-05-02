@@ -7,7 +7,18 @@ h1{
     font-family: 'Stylish', sans-serif;
     font-size: 45px;
 }
+/* img{
+  width: 800px;
+  height: 500px;
+  z-index: 10;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+} */
 #my-canvas{
+    background: url('./images/background.jpg') no-repeat;
+    background-size: 800px 500px;
     border-radius: 20px;
     margin: 0;
     padding: 0;
@@ -18,7 +29,6 @@ h1{
     margin-right: auto;
     display: block;
     width: 800px;
-    background: #e0e0e0;
     box-shadow:  5px 5px 10px #969696, -5px -5px 10px #ffffff;
 }
 .center{
