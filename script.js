@@ -82,7 +82,7 @@ loadImages((images) => {
         quedAnimation.push("kick"); 
        } else if( key === "ArrowDown"){
         quedAnimation.push("punch");
-       } else if(key === "space"){
+       } else if(key === " "){
         quedAnimation.push("block");
        }
    });
